@@ -1,20 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package menu;
-
-/**
- *
- * @author Compu17
- */
+import java.util.Scanner;
 public class Menu {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer numero: ");
+            int a = teclado.nextInt();
+        System.out.println("Ingrese el segundo numero: ");
+            int b = teclado.nextInt();
+        
+    //suma clasesuma = new suma();
+    //resta claseresta = new resta();
     
+    System.out.println("---------SUMA------------");
+     //   System.out.println(clasesuma);
+     System.out.println("---------RESTA-----------");
+     //   System.out.println(claseresta);
+    
+    }
 }
